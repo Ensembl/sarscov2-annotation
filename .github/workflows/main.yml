@@ -38,6 +38,9 @@ jobs:
     - name: chmod bedToBigBed
       run: chmod +x bedToBigBed
 
+    - name: Add current directory to path
+      run: echo "::add-path::."
+
     - name: Run the Perl reformatter
       run: perl reformat_ucsc_annotation.pl
     
