@@ -39,7 +39,7 @@ jobs:
       run: chmod +x bedToBigBed
     
     - name: Run a one-line script
-      run: bedToBigBed
+      run: ./bedToBigBed
 
     - name: Run the Perl reformatter
       run: perl reformat_ucsc_annotation.pl
