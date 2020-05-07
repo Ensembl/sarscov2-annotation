@@ -13,6 +13,12 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+    
+    - name: install cpm and multiple modules
+      uses: perl-actions/install-with-cpm@v1.3
+      with:
+        cpanfile: "cpanfile"
+        sudo: false
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
