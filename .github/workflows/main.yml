@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: "perl v${{ matrix.perl-version }}"
+    name: "perl v${{ matrix.perl-version }} community builder"
 
     strategy:
       fail-fast: true
@@ -37,9 +37,11 @@ jobs:
     
     - name: chmod bedToBigBed
       run: chmod +x bedToBigBed
-    
-    - name: Run a one-line script
-      run: ./bedToBigBed
 
     - name: Run the Perl reformatter
       run: perl reformat_ucsc_annotation.pl
+    
+    - uses: actions/upload-artifact@v2
+      with:
+        name: UCSC Community BigBed
+        path: ucsc_community.bb
