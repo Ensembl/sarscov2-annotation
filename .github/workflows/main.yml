@@ -9,6 +9,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: "perl v${{ matrix.perl-version }}"
+
+    strategy:
+      fail-fast: true
+      matrix:
+        perl-version:
+          - "5.26"
+
+    container:
+      image: perldocker/perl-tester:${{ matrix.perl-version }}
 
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
