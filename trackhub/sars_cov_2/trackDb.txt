@@ -117,8 +117,8 @@ priority 0
 visibility hide
 
 track problematic_sites_sarsCov2
-bigDataUrl ../../vcfs/problematic_sites_sarsCov2.vcf.gz
-bigDataIndex ../../vcfs/problematic_sites_sarsCov2.vcf.gz.tbi
+bigDataUrl ../../annotations/vcfs/problematic_sites_sarsCov2.vcf.gz
+bigDataIndex ../../annotations/vcfs/problematic_sites_sarsCov2.vcf.gz.tbi
 shortLabel Problematic sites
 longLabel Problematic sites within the SARS-CoV-2 genome that appear to be homoplasic and have no phylogenetic signal and/or low prevalence. This is as defined by De Maio et al (http://virological.org/t/issues-with-sars-cov-2-sequencing-data/473)
 type vcfTabix
