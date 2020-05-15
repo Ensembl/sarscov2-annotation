@@ -1,0 +1,127 @@
+track sarscov2_cdd
+bigDataUrl ../../annotations/bb/sarscov2_cdd.bb
+shortLabel CDD Projection
+longLabel Projection of CDD protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_gene3d
+bigDataUrl ../../annotations/bb/sarscov2_gene3d.bb
+shortLabel CATH-Gene3D Projection
+longLabel Projection of CATH-Gene3D protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_hamap
+bigDataUrl ../../annotations/bb/sarscov2_hamap.bb
+shortLabel HAMAP Projection
+longLabel Projection of HAMAP protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_panther
+bigDataUrl ../../annotations/bb/sarscov2_panther.bb
+shortLabel PANTHER Projection
+longLabel Projection of PANTHER protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_pfam
+bigDataUrl ../../annotations/bb/sarscov2_pfam.bb
+shortLabel Pfam Projection
+longLabel Projection of Pfam protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility full
+labelOnFeature on
+
+track sarscov2_pirsf
+bigDataUrl ../../annotations/bb/sarscov2_pirsf.bb
+shortLabel PIRSF Projection
+longLabel Projection of PIRSF protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_smart
+bigDataUrl ../../annotations/bb/sarscov2_smart.bb
+shortLabel SMART Projection
+longLabel Projection of SMART protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_superfamily
+bigDataUrl ../../annotations/bb/sarscov2_superfamily.bb
+shortLabel SUPERFAMILY Projection
+longLabel Projection of SUPERFAMILY protein annotation to the SARS-CoV-2 genome
+type bigBed 6 +
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_ncoils
+bigDataUrl ../../annotations/bb/sarscov2_ncoils.bb
+shortLabel NCoils projection
+longLabel Projection of NCoils protein annotation to the SARS-CoV-2 genome
+type bigBed 6
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_mobidblite
+bigDataUrl ../../annotations/bb/sarscov2_mobidblite.bb
+shortLabel MobiDB-lite projection
+longLabel Projection of MobiDB-lite protein annotation to the SARS-CoV-2 genome
+type bigBed 6
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_seg
+bigDataUrl ../../annotations/bb/sarscov2_seg.bb
+shortLabel Seg projection
+longLabel Projection of seg protein annotation to the SARS-CoV-2 genome
+type bigBed 6
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_signalp
+bigDataUrl ../../annotations/bb/sarscov2_signalp.bb
+shortLabel SignalP projection
+longLabel Projection of SignalP protein annotation to the SARS-CoV-2 genome
+type bigBed 6
+itemRgb On
+priority 0
+visibility hide
+
+track sarscov2_tmhelices
+bigDataUrl ../../annotations/bb/sarscov2_tmhelices.bb
+shortLabel TMHMM projection
+longLabel Projection of TMHMM protein annotation to the SARS-CoV-2 genome
+type bigBed 6
+itemRgb On
+priority 0
+visibility hide
+
+track problematic_sites_sarsCov2
+bigDataUrl ../../vcfs/problematic_sites_sarsCov2.vcf.gz
+bigDataIndex ../../vcfs/problematic_sites_sarsCov2.vcf.gz.tbi
+shortLabel Problematic sites
+longLabel Problematic sites within the SARS-CoV-2 genome that appear to be homoplasic and have no phylogenetic signal and/or low prevalence. This is as defined by De Maio et al (http://virological.org/t/issues-with-sars-cov-2-sequencing-data/473)
+type vcfTabix
+itemRgb On
+priority 0
+visibility full

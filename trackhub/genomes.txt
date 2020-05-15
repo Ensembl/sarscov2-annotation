@@ -1,0 +1,2 @@
+genome ASM985889v3
+trackDb sars_cov_2/trackDb.txt
