@@ -137,7 +137,7 @@ priority 0
 visibility hide
 
 track ucsc_communityannotation_sarsCov2
-bigDataUrl ../../bb/ucsc_annotations.bb
+bigDataUrl ../../annotations/bb/ucsc_annotations.bb
 shortLabel UCSC Community Annotation
 longLabel Community annotation generated and curated by the UCSC genome browser group and partners (https://genome.ucsc.edu/covid19.html).
 type bigBed 6 +
