@@ -147,7 +147,7 @@ visibility full
 
 track artic1
 bigDataUrl ../../annotations/bb/ARTIC1.bb
-shortLabel ARTIC1 V1-3 primer schemes
+shortLabel ARTIC1 V1-3
 longLabel ARTIC1 V1-3 primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
 type bigBed 9
 itemRgb On
