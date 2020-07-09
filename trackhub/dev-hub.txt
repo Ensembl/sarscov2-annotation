@@ -1,0 +1,6 @@
+hub dev_sarscov2_hub
+shortLabel Dev SARS-CoV-2 Track Hub
+longLabel Dev SARS-CoV-2 Track Hub of associated annotation
+genomesFile genomes.txt
+email helpdesk@ensembl.org
+descriptionUrl https://covid-19.ensembl.org
