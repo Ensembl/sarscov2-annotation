@@ -148,71 +148,71 @@ visibility full
 track artic1
 bigDataUrl ../../annotations/bb/ARTIC1.bb
 shortLabel ARTIC1 (V1-3)
-longLabel ARTIC1 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC1 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 101
 visibility hide
 
 track artic2
 bigDataUrl ../../annotations/bb/ARTIC2.bb
 shortLabel ARTIC2 (V1-3)
-longLabel ARTIC2 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC2 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 102
 visibility hide
 
 track artic3
 bigDataUrl ../../annotations/bb/ARTIC3.bb
 shortLabel ARTIC3 (V1-3)
-longLabel ARTIC3 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC3 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 103
 visibility hide
 
 track artic4
 bigDataUrl ../../annotations/bb/ARTIC4.bb
 shortLabel ARTIC4 (V1-3)
-longLabel ARTIC4 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC4 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 104
 visibility hide
 
 track artic5
 bigDataUrl ../../annotations/bb/ARTIC5.bb
 shortLabel ARTIC5 (V1-3)
-longLabel ARTIC5 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC5 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 105
 visibility hide
 
 track artic6
 bigDataUrl ../../annotations/bb/ARTIC6.bb
 shortLabel ARTIC6 (V1-3)
-longLabel ARTIC6 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC6 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 106
 visibility hide
 
 track artic7
 bigDataUrl ../../annotations/bb/ARTIC7.bb
 shortLabel ARTIC7 (V1-3)
-longLabel ARTIC7 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC7 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 107
 visibility hide
 
 track artic8
 bigDataUrl ../../annotations/bb/ARTIC8.bb
 shortLabel ARTIC8 (V1-3)
-longLabel ARTIC8 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus
+longLabel ARTIC8 (V1-3) primer schemes for nanopore sequencing of SARS-CoV-2 (nCoV2019) novel coronavirus. N.B. ARTIC amplicon tracks 1-8 are numbered/populated arbitrarily to ensure optimal visibility. Please switch all on or all off.
 type bigBed 9
 itemRgb On
-priority 0
+priority 108
 visibility hide
