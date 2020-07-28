@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  md5_exe=md5
+else
+  md5_exe=md5sum
+fi
+
+target_path=$1
+source=https://raw.githubusercontent.com/Ensembl/sarscov2-annotation/master/trackhub/sars_cov_2/trackDb.txt
+if [ ! -f $target_path ]; then
+  echo "Cannot find $target_path"
+  exit 1
+fi
+
+target_md5=$(cat $target_path | $md5_exe)
+source_md5=$(curl -s $source | $md5_exe)
+
+if [ "$source_md5" != "$target_md5" ]; then
+  curl -s $source > $target_path
+fi
