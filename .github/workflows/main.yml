@@ -40,6 +40,8 @@ jobs:
 
     - name: Add current directory to path
       run: echo "::add-path::."
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
     - name: Run the Perl reformatter
       run: perl reformat_ucsc_annotation.pl
