@@ -117,9 +117,9 @@ priority 0
 visibility hide
 
 track problematic_sites_sarsCov2
-bigDataUrl https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v6.mask.vcf.gz
-bigDataIndex https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v6.mask.vcf.gz.tbi
-shortLabel Problematic sites v6
+bigDataUrl https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v7.mask.vcf.gz
+bigDataIndex https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v7.mask.vcf.gz.tbi
+shortLabel Problematic sites v7
 longLabel Problematic sites within SARS-CoV-2 genome sequences, recommended for masking from phylogenetic/phylodynamic analyses. This is as defined by De Maio et al. (http://virological.org/t/issues-with-sars-cov-2-sequencing-data/473)
 type vcfTabix
 itemRgb On
@@ -127,9 +127,9 @@ priority 0
 visibility hide
 
 track caution_sites_sarsCov2
-bigDataUrl https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v6.caution.vcf.gz
-bigDataIndex https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v6.caution.vcf.gz.tbi
-shortLabel Caution sites v6
+bigDataUrl https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v7.caution.vcf.gz
+bigDataIndex https://raw.githubusercontent.com/W-L/ProblematicSites_SARS-CoV2/master/compressed_vcf/problematic_sites_sarsCov2.v7.caution.vcf.gz.tbi
+shortLabel Caution sites v7
 longLabel Sites within SARS-CoV-2 genome sequences where caution should be used if included in phylogenetic/phylodynamic analyses. This is as defined by De Maio et al. (http://virological.org/t/issues-with-sars-cov-2-sequencing-data/473)
 type vcfTabix
 itemRgb On
